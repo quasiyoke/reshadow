@@ -18,7 +18,7 @@
         }
 
         button[|variant='action'] {
-            background-color: purple;
+            background-color: yellow;
         }
 
         button[disabled] {
@@ -32,7 +32,7 @@
 
     <p>color: {color}</p>
 
-    <button {size} on:click={() => count++} type=button :variant=action :size=m>
+    <button :{size} :variant=action on:click={() => count++} type=button>
         click me 2
     </button>
 

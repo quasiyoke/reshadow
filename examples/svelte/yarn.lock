@@ -1578,6 +1578,11 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
+hast-util-is-element@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/hast-util-is-element/-/hast-util-is-element-1.0.2.tgz#c23c9428b6a5a4e323bf9e16f87417476314981b"
+  integrity sha512-4MEtyofNi3ZunPFrp9NpTQdNPN24xvLX3M+Lr/RGgPX6TLi+wR4/DqeoyQ7lwWcfUp4aevdt4RR0r7ZQPFbHxw==
+
 hmac-drbg@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
@@ -3051,6 +3056,11 @@ requires-port@^1.0.0:
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
+reshadow@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/reshadow/-/reshadow-0.0.0.tgz#d54b61576cca559179fb1355131ca5b14b3a7b14"
+  integrity sha512-rnmZVGFJPm5yrFkGOKlu4yy77oMAMo7vKQMtqfT2NeCLCbRA21DntOWPW9HlWEYrSI2UAbTvFhi60zgs6sSXUg==
+
 resolve-cwd@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/resolve-cwd/-/resolve-cwd-2.0.0.tgz#00a9f7387556e27038eae232caa372a6a59b665a"
@@ -3693,6 +3703,11 @@ unique-slug@^2.0.0:
   integrity sha512-n9cU6+gITaVu7VGj1Z8feKMmfAjEAQGhwD9fE3zvpRRa0wEIx8ODYkVGfSc94M2OX00tUFV8wH3zYbm1I8mxFg==
   dependencies:
     imurmurhash "^0.1.4"
+
+unist-util-visit-children@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/unist-util-visit-children/-/unist-util-visit-children-1.1.2.tgz#bd78b53db9644b9c339ac502854f15471f964f5b"
+  integrity sha512-q4t6aprUcSQ2/+xlswuh2wUKwUUuMmDjSkfwkMjeVwCXc8NqX8g0FSmNf68CznCmbkrsOPDUR0wj14bCFXXqbA==
 
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"

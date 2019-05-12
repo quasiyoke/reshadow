@@ -1,6 +1,7 @@
 const postcss = require('postcss');
 const {stripIndent} = require('common-tags');
 const reshadow = require('../../src/postcss');
+const reshadowPreprocess = require('../../src/svelte');
 const processor = postcss([reshadow({})]);
 
 const {transformAsync} = require('@babel/core');
@@ -154,7 +155,7 @@ module.exports = {
                     loader: 'svelte-loader',
                     options: {
                         hotReload: !prod,
-                        preprocess,
+                        preprocess: reshadowPreprocess,
                     },
                 },
             },

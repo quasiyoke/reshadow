@@ -24,7 +24,7 @@
         button[disabled] {
             color: grey;
         }
-    `;
+    `();
 </script>
 
 <container>
@@ -32,7 +32,7 @@
 
     <p>color: {color}</p>
 
-    <button :{size} :variant=action on:click={() => count++} type=button>
+    <button :{size} :variant=action on:click={() => {count++}} type=button>
         click me 2
     </button>
 

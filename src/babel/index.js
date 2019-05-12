@@ -230,7 +230,7 @@ module.exports = (babel, pluginOptions = {}) => {
             quasi.expressions.length &&
             prepareExpressions(quasi.expressions, hash);
 
-        const [jsxNode] = p.node.arguments;
+        const [jsxNode = t.identifier('null')] = p.node.arguments;
 
         const stylesSet = t.sequenceExpression([
             t.callExpression(t.identifier(addImport('set')), [

@@ -5,8 +5,10 @@
         "start": "webpack-dev-server --content-base public --hot"
     },
     "dependencies": {
+        "hast-util-is-element": "^1.0.2",
         "reshadow": "^0.0.0",
-        "svelte": "^3.0.0"
+        "svelte": "^3.0.0",
+        "unist-util-visit-children": "^1.1.2"
     },
     "devDependencies": {
         "css-loader": "^2.1.1",
