@@ -1,0 +1,26 @@
+{
+    "name": "@reshadow/parcel-plugin-reshadow",
+    "version": "0.0.1-alpha.65",
+    "description": "reshadow parcel plugin",
+    "main": "index.js",
+    "scripts": {
+        "build": "../../build.sh"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lttb/reshadow.git"
+    },
+    "keywords": [
+        "parcel",
+        "reshadow"
+    ],
+    "author": "Petr Ermishkin <quasiyoke@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/lttb/reshadow/issues"
+    },
+    "peerDependencies": {
+        "parcel-bundler": "^1.0.0"
+    },
+    "homepage": "https://github.com/lttb/reshadow#readme"
+}
