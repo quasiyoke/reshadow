@@ -1,10 +1,12 @@
-import compiler from './compiler.js';
+import path from 'path';
+import {bundle} from './utils';
 
 describe('parcel', () => {
     it('inserts name and outputs JavaScript', async () => {
         const entry = './App/index.js';
 
-        const {stats} = await compiler(entry);
+        const bbb = await bundle(path.join(__dirname, entry));
+        console.log('Bundled: ', bbb);
         const output = stats.toJson();
 
         if (output.errors.length) {

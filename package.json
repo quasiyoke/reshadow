@@ -21,11 +21,6 @@
         "coveralls": "cat ./coverage/lcov.info | coveralls",
         "lint": "eslint --ext .jsx,.js ."
     },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
     "lint-staged": {
         "*.{js,jsx}": [
             "eslint",

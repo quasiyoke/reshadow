@@ -1,4 +1,5 @@
 import path from 'path';
+import {bundle} from '@parcel/test-utils';
 import Bundler from 'parcel-bundler';
 import MemoryFS from 'memory-fs';
 

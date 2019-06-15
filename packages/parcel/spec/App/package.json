@@ -1,0 +1,7 @@
+{
+  "name": "test-parcel-project",
+  "private": true,
+  "dependencies": {
+    "@reshadow/parcel-plugin-reshadow": "../.."
+  }
+}
